@@ -1,0 +1,61 @@
+TASK:01
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=0,b=0;
+	for(int i=0;i<10;i++){
+	       cout<<"enter number b"<<endl;
+	      cin>>b;
+              a=a+b;	}
+		
+	    cout<<"sum of first ten natural number is   "<<a<<endl;
+		return 0;
+		
+
+
+
+
+TASK:02
+
+	int i,k;
+	cout<<"enter number "<<endl;
+	cin>>i;
+	for(int k=1;k<=10;k++)
+	{
+         cout<<i<<"x"<<k<<"="<<k*i<<endl;
+
+TASK:03
+
+         int k,m,n;
+   
+         cout<<" enter factorial number"<<endl;
+         cin>>k;
+         m=k;
+         n=1;
+         for(int lk=m;m>0;m--)
+       {
+	n=m*n;
+	
+           } 
+         cout<<"factorail number is: "<<n<<endl; 
+TASK:04
+         
+         double num1,num2,newnum;
+	cout<<"enter two numbers"<<endl;
+	cin>>num1;
+	cin>>num2;
+	
+	double endlimit;
+	cout<<"enter limit"<<endl;
+	cin>>endlimit;
+	
+	cout<<"sequence upto limits  "<< endlimit<<endl;
+	
+	while(num1<endlimit)
+{
+	cout<<num1<<"";
+	newnum=num1+num2;
+	num1=num2;
+	num2=newnum;
